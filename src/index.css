@@ -1,13 +1,46 @@
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
+}
+.access-denied {
+  text-align: center; /* Center text */
+  padding: 20px; /* Add padding */
+  border: 2px solid #dc3545; /* Red border for access denied */
+  border-radius: 8px; /* Rounded corners */
+  background-color: #f8d7da; /* Light red background */
+  color: #721c24; /* Dark red text */
+  margin-top: 50px; /* Add some margin from the top */
+}
+
+.access-denied-title {
+  font-size: 2rem; /* Larger font size for the title */
+  margin-bottom: 10px; /* Space below the title */
+}
+
+.access-denied-message {
+  font-size: 1.2rem; /* Slightly larger text for the message */
+  margin-bottom: 10px; /* Space below the message */
+}
+
+.access-denied-redirect {
+  font-size: 1rem; /* Standard text size */
+}
+
+.access-denied-link {
+  color: #007bff; /* Bootstrap primary link color */
+  text-decoration: underline; /* Underline the link */
+}
+
+.access-denied-link:hover {
+  color: #0056b3; /* Darker color on hover */
+  text-decoration: none; /* Remove underline on hover */
 }

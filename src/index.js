@@ -1,17 +1,15 @@
-import React from 'react';
-import ReactDOM from 'react-dom/client';
-import './index.css';
-import App from './App';
-import reportWebVitals from './reportWebVitals';
+import React from "react";
+import ReactDOM from "react-dom/client"; // Use ReactDOM.createRoot for React 18+
+import App from "./App"; // Import your App component
+import "bootstrap/dist/css/bootstrap.min.css"; // Import Bootstrap CSS
+import "./index.css"; // Import your custom CSS file
+import Footer from "./components/Footer";
 
-const root = ReactDOM.createRoot(document.getElementById('root'));
+const root = ReactDOM.createRoot(document.getElementById("root")); // Get the root element
+
 root.render(
   <React.StrictMode>
-    <App />
+    <App /> {/* Render the App component */}
+    <Footer />
   </React.StrictMode>
 );
-
-// If you want to start measuring performance in your app, pass a function
-// to log results (for example: reportWebVitals(console.log))
-// or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
-reportWebVitals();
